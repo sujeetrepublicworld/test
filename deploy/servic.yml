@@ -7,7 +7,7 @@ metadata:
 spec:
   selector:
     app: nginx
-  type: NodePort   # ClusterIP se change kiya
+  type: LoadBalancer  # ClusterIP se change kiya
   ports:
     - protocol: TCP
       port: 80
